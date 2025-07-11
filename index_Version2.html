@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MadeByMe | أنشئ متجرك الرقمي الآن!</title>
+  <meta name="description" content="منصة وتطبيق MadeByMe للمصممين والمبدعين لبيع منتجاتهم الرقمية بسهولة. سجّل الآن للحصول على وصول مبكر!"/>
+  <meta name="keywords" content="متجر رقمي, تصميم, إبداع, بيع منتجات رقمية, منصة للمبدعين, MadeByMe, landing page"/>
+  <meta name="author" content="MadeByMe Team"/>
+  <link rel="icon" href="favicon.ico"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header animate__animated animate__fadeInDown">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-icon">🎨</span> 
+        <span class="logo-text">MadeByMe</span>
+      </div>
+      <nav>
+        <a href="#about">عن المنصة</a>
+        <a href="#subscribe">سجّل</a>
+      </nav>
+    </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-flex">
+      <div class="hero-content animate__animated animate__fadeInRight">
+        <h1>متجرك الرقمي... إبداعك يستحق الانتشار!</h1>
+        <p>
+          MadeByMe منصة حديثة للمبدعين والمصممين. أنشئ متجرك، اعرض أعمالك الفنية وابدأ البيع بسهولة مع تجربة استخدام عصرية وأدوات تسويقية ذكية.
+        </p>
+        <a href="#subscribe" class="btn-primary animated-btn">سجل الآن</a>
+      </div>
+      <div class="hero-image animate__animated animate__zoomIn">
+        <img src="https://undraw.co/api/illustrations/7a3b6c7d-2d06-4d3b-8b90-2c8a5c2d9f32" alt="توضيح لمنصة MadeByMe" />
+      </div>
+    </div>
+    <!-- دوائر متحركة للخلفية لجذب الانتباه -->
+    <div class="bg-circles">
+      <span class="circle circle1"></span>
+      <span class="circle circle2"></span>
+      <span class="circle circle3"></span>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="animate__animated animate__fadeInDown">لماذا MadeByMe؟</h2>
+      <div class="features-grid">
+        <div class="feature animate__animated animate__fadeInUp">
+          <div class="icon-box gradient-bg">
+            <span>🛍️</span>
+          </div>
+          <h3>متاجر رقمية مخصصة</h3>
+          <p>صمم متجرك الشخصي بكل سهولة وشارك أعمالك مع جمهورك.</p>
+        </div>
+        <div class="feature animate__animated animate__fadeInUp" style="animation-delay: .15s;">
+          <div class="icon-box gradient-bg2">
+            <span>🚀</span>
+          </div>
+          <h3>سهولة البدء</h3>
+          <p>ابدأ بنقرات فقط بدون أي خبرة تقنية مسبقة.</p>
+        </div>
+        <div class="feature animate__animated animate__fadeInUp" style="animation-delay: .3s;">
+          <div class="icon-box gradient-bg3">
+            <span>💡</span>
+          </div>
+          <h3>أدوات تسويقية ذكية</h3>
+          <p>حقق الانتشار وزد مبيعاتك عبر أدوات تسويق ذكية مدمجة.</p>
+        </div>
+        <div class="feature animate__animated animate__fadeInUp" style="animation-delay: .45s;">
+          <div class="icon-box gradient-bg4">
+            <span>🔒</span>
+          </div>
+          <h3>أمان عالي وخصوصية</h3>
+          <p>منصة آمنة لحماية بياناتك وأعمالك الفنية الرقمية.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Subscription Form -->
+  <section class="subscribe-section" id="subscribe">
+    <div class="container">
+      <div class="subscribe-box animate__animated animate__zoomIn">
+        <h2>سجّل اهتمامك الآن!</h2>
+        <p>انضم إلى قائمة المبدعين وكن أول من يحصل على وصول مبكر للمنصة.</p>
+        <form class="subscribe-form" id="subscribeForm" autocomplete="on">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="الاسم الكامل" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+          </div>
+          <button type="submit" class="btn-primary animated-btn">سجّل الآن</button>
+          <div class="form-message" id="formMessage"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer animate__animated animate__fadeInUp">
+    <div class="container">
+      <div class="footer-content">
+        <span>&copy; 2025 MadeByMe. جميع الحقوق محفوظة.</span>
+        <div class="footer-social">
+          <a href="#" title="تويتر"><img src="twitter.svg" alt="Twitter"/></a>
+          <a href="#" title="انستغرام"><img src="instagram.svg" alt="Instagram"/></a>
+          <a href="#" title="لينكدإن"><img src="linkedin.svg" alt="LinkedIn"/></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
